@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.search-bar {
+  margin: 10px 0;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #218838;
+}
+
+.categories {
+  margin: 20px 0;
+}
+
+.categories button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.categories button:hover {
+  background-color: #0056b3;
+}
+
+main {
+  padding: 20px;
+}
+
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.game-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.game-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.game-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.game-card button:hover {
+  background-color: #218838;
+}
+
+.cart {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.cart h2 {
+  margin: 0;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items li {
+  text-align: left;
+  margin: 5px 0;
+}
+
+#total-price {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button {
+  cursor: pointer;
+}
